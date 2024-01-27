@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "namaz_vakitleri"
+version = "0.1.0"
+description = "\"Namaz vakitleri yillik\""
+authors = ["rga"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
